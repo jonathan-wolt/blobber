@@ -1,0 +1,28 @@
+Blobber Jump and Run
+---------------------
+
+1) Der Spieler spielt eine blasenartige Figur,
+und kann Kaugummy-artige Blasen verschießen
+
+2 - 3) Wenn diese einen Gegner trifft, wird dieser in der Blase eingeschlossen.
+
+4) Und diese Blase schwebt dann nach oben durch das Level.
+
+5) Nach einer kurzen Zeit platzt die Blase,
+oder der Spieler muss die Blase abschießen bevor diese nach oben das Level verlässt,
+und es fällt ein zufälliger Gegenstand raus,
+der dann irgendwo im Level liegenbleibt.
+
+Wenn der Spieler diesen Gegenstand einsammelt erhält er Punkte.
+Wenn der Spieler einen Gegner berührt verliert er Leben
+
+Nach einer bestimmten Zeit, oder anderem Ziel (10 Gegenstände gesammelt) kommt man ins nächste Level.
+
+Schwierigkeit wird durch Anzahl der Gegner oder rascherem Spawnen von Gegnern,
+oder durch Fallen und komplizierteren Levelaufbau erhöht.
+
+--------------
+
+vielleicht das man die Farben der Blasen umschalten kann, und für jede Gegnerfarbe die passende Blase/Geschoss braucht
+und vielleicht muss man die Geschoße auch im Level einsammeln, dan ist es mehr Jump und Run
+
