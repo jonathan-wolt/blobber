@@ -10,15 +10,15 @@ export var jumpHeight := 550.0
 # Bewegung Steuerung
 export var toLeft := "ui_left"
 export var toRight := "ui_right"
-export var toJump := "ui_up"
+export var toJump := "jump"
 
 #==========================
 # Objekte
 #----------
 
 # Sprite oder AnimatedSprite - nicht beide verwenden !!
-onready var sprite : Sprite = $icon
-onready var aniSprite : AnimatedSprite = null
+onready var sprite : Sprite = null
+onready var aniSprite : AnimatedSprite = $AnimatedSprite
 
 # AnimationPlayer
 onready var aniPlayer : AnimationPlayer = null
@@ -54,8 +54,13 @@ var up := Vector2(0, -1)	# Up-Richtung
 # Funktionen
 #-------------
 
+func _ready():
+	if aniSprite:
+		aniSprite.play("idle_O")
+
+
 # move_and_slide im Physik Prozess
-func _physics_process(delta):
+func _physics_process(_delta):
 	# Bremsen ausschalten
 	var friction := false
 	
